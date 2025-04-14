@@ -1,0 +1,39 @@
+Algoritmo Inicio
+	Escribir 'Ingrese el nombre del empleado'
+	Leer Empleado
+	Repetir
+		Escribir '---------------------------------------------------'
+		Escribir 'Hola ', Empleado, ' Como le va el dia de hoy'
+		Escribir 'Sea bienvenido a Building bit center'
+		Escribir '---------------------------------------------------------------------'
+		Escribir 'Menu'
+		Escribir '1) Ordenar Productos'
+		Escribir '2) Agregar inventario'
+		Escribir '3) Imprimir inventario'
+		Escribir '4) Ordenar productos'
+		Escribir '5) Salir del programa'
+		Escribir '-------------------------------------------------------------------------'
+		Escribir 'Ingrese el numero de la opcion que quiera'
+		Leer opcion
+		Según opcion Hacer
+			1:
+				Escribir "-------------------------------------------------------------------------------"
+				Escribir 'Elegiste la opcion de ordenar productos'
+			2:
+				Escribir "----------------------------------------------------------------------------"
+				Escribir 'Elegiste la opcion de Agregar inventario'
+			3:
+				Escribir "--------------------------------------------------------------------------------"
+				Escribir 'Elegiste la opcion de Imprimir inventario'
+			4:
+				Escribir "---------------------------------------------------------"
+				Escribir 'Elegiste la opcion de Ordenar productos'
+			5:
+				Escribir "---------------------------------------------------------------------"
+				Escribir 'Salir'
+			De Otro Modo:
+				Escribir "----------------------------------------------------------------------"
+				Escribir 'Numero invalido'
+		FinSegún
+	Hasta Que (opcion==5)
+FinAlgoritmo
